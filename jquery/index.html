@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>JavaScript checkpoint</title>
+</head>
+
+<body>
+    <div class="cover">
+        <h1 class="heading">Google</h1>
+    </div>
+    <div class="container">
+        <h2 class="heading">what is Google</h2>
+        <div class="square">
+            <div class="article-title">there: </div>
+            <div id="article-body">
+                Google LLC [ˈguːgəl] est une entreprise américaine de services technologiques fondée en 1998 dans la Silicon Valley, 
+                en Californie, par Larry Page et Sergey Brin, créateurs du moteur de recherche Google. C'est une filiale de la société Alphabet depuis août 2015.</div>
+        </div>
+
+        <button id="bold"> Bold </input>
+        <button id="italic"> italic</input>
+        <button id="underline"> underline </input>
+        
+        <select onchange="changeFont (this);">
+                <option value="Times New Roman" selected ="selected">Times New Roman</option>
+                <option value="Arial">Arial</option>
+        </select>
+        
+        <select id="fontSizeDD" onchange="fontsize (this);">
+                <option value='12'>12</option>
+                <option value='14'>14</option>
+                <option value='16'>16</option>
+                <option value='18'>18</option>
+                <option value='20'>20</option>
+                <option value='22'>22</option>
+                <option value='24'>24</option>
+                <option value='26'>26</option>
+              </select>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
